@@ -14,7 +14,8 @@ html {
 
 body {
   margin: 0;
-  font-family:${primaryFont}
+  font-family:${primaryFont};
+  padding: 150px;  
 }
 
 main {
