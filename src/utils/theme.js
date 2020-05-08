@@ -1,5 +1,5 @@
 import { blue, neutral, yellow, red, green } from "./colors";
-import primaryFont from "./typography";
+import { primaryFont } from "./typography";
 
 export const DarkTheme = {
   primaryColor: blue[300],
@@ -9,6 +9,11 @@ export const DarkTheme = {
   textColorPrimary: neutral[300],
   textColor: neutral[600],
   textColorInverted: neutral[100],
+  disabled: neutral[400],
+  textOnDisabled: neutral[300],
+  formElementBacground: blue[100],
+  textOnFormElementBackground: neutral[600],
+  primaryFont,
   status: {
     warningColor: yellow[100],
     warningColorHover: yellow[200],
@@ -30,6 +35,11 @@ export const defaultTheme = {
   textColorPrimary: blue[300],
   textColor: blue[300],
   textColorInverted: neutral[100],
+  disabled: neutral[400],
+  textOnDisabled: neutral[300],
+  formElementBacground: neutral[100],
+  textOnFormElementBackground: neutral[600],
+  primaryFont,
   status: {
     warningColor: yellow[100],
     warningColorHover: yellow[200],
