@@ -1,0 +1,24 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import { action } from "@storybook/addon-actions"
+import { withKnobs, boolean } from "@storybook/addon-knobs"
+import { SignUpModal } from "./modal";
+
+<Meta title="Design System|Modals" component={SignUpModal} />
+
+# Modals
+
+Modals are used to hide the primary screen and show the information 
+
+## Usage
+
+Modals are used to hide the primary screen and show the information 
+
+## Signup modal
+
+Signup modal is used for signing up
+
+<Preview withToolbar>
+  <Story name="signUpModal">
+    <SignUpModal showModal={boolean("showModal", true)}/>
+  </Story>
+</Preview>

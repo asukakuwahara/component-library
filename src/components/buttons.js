@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { defaultTheme, typeScale } from "../utils";
+import { typeScale } from "../utils";
 
 import { applyStyleModifiers } from 'styled-components-modifiers'
 
@@ -126,7 +126,7 @@ const SecondaryButton = styled(Button)`
 
 `;
 
-const TernaryButton = styled(Button)`
+const TertiaryButton = styled(Button)`
   border: none;
   background: none;
   color: ${props => props.theme.primaryColor};
@@ -143,4 +143,4 @@ const TernaryButton = styled(Button)`
 //apply modifiers to each buttons instead of base 
 // to make sure modifiers is the last one to override other CSS
 
-export { PrimaryButton, SecondaryButton, TernaryButton };
+export { PrimaryButton, SecondaryButton, TertiaryButton };

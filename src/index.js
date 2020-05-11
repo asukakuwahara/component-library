@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import ReactDOM from "react-dom";
 import { ThemeProvider } from 'styled-components'
-// import { PrimaryButton, SecondaryButton, TernaryButton } from "./components";
+// import { PrimaryButton, SecondaryButton, TertiaryButton } from "./components";
 import { SignUpModal } from "./components";
 
 import { GlobalStyle, DarkTheme, defaultTheme } from "./utils/";
@@ -18,7 +18,7 @@ const App = () => {
   <div style={{background: useDarkTheme ? defaultTheme.primaryColor : DarkTheme.primaryColor, width: '100vw', height: '100vh', display: 'flex', alignItems: "center", justifyContent: "space-around"}}>
   {/* <PrimaryButton >Bing</PrimaryButton>
   <SecondaryButton>bing</SecondaryButton>
-  <TernaryButton >bong</TernaryButton> */}
+  <TertiaryButton >bong</TertiaryButton> */}
   
   <SignUpModal showModal={showModal} setShowModal={setShowModal}/>
   </div>
